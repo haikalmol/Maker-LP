@@ -1,0 +1,90 @@
+.footer-div {
+    text-align: center;
+}
+
+.footer-div {
+    h2 {
+        margin-bottom: 42px;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .email {
+            width: 320px;
+            height: 48px;
+            background: #093f68;
+            border-radius: 24px;
+            outline: none;
+            padding-left: 18px;
+            padding-top: 12px;
+        }
+    }
+    button {
+        margin-left: 16px;
+        color: #093f68;
+        background: #3ee9e5;
+        border-radius: 24px;
+        width: 140px;
+        height: 48px;
+        outline: none;
+        border: none;
+        font-size: $font-xsm;
+        line-height: 25px;
+        font-weight: map-get($font-weights, bold);
+        font-family: Manrope;
+        font-style: normal;
+        cursor: pointer;
+    }
+}
+
+.footer__image {
+    position: absolute;
+    width: 1664.13px;
+    height: 228px;
+    left: -388.7px;
+    bottom: -42px;
+    pointer-events: none;
+}
+
+::placeholder {
+    font-weight: map-get($font-weights, bold);
+    font-family: Manrope;
+    font-style: normal;
+    font-size: $font-xsm;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.footer-div {
+    margin-bottom: 158px;
+    h2 {
+        margin-top: 1px;
+    }
+}
+
+.error {
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 25px;
+    color: $red;
+    margin-right: 190px;
+    margin-top: 6px;
+    display: none;
+}
+
+.email {
+    border: none;
+    &error {
+        border: 2px solid $red;
+    }
+}
+
+.submit:hover {
+    background-color: $black;
+    border: 2px solid $cyan;
+    color: $white;
+}

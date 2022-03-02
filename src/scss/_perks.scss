@@ -1,0 +1,64 @@
+.perks {
+    width: 1110px;
+    height: 383px;
+    &__card {
+        width: 255px;
+        height: 335px;
+    }
+
+    &__image {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        &-background {
+            @include flex-center;
+
+            color: $white;
+            width: 160px;
+            height: 164px;
+            background: $blue;
+            border-radius: 45px;
+        }
+    }
+    &__textbox {
+        height: 123px;
+        margin-top: 48px;
+        width: 255px;
+        height: 123px;
+    }
+    &__title {
+        margin-bottom: 23px;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.perks__card:nth-child(even) {
+    margin-top: 48px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.margin-left-8px {
+    margin-left: 8px;
+}
+
+.perks__description {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0px;
+    color: #777f98;
+    text-align: left;
+}
+
+.perks {
+    margin-bottom: 202px;
+}

@@ -1,0 +1,133 @@
+.pricing__textbox {
+    margin: 0 auto;
+    text-align: center;
+    width: 540px;
+    height: 118px;
+    margin-bottom: 72px;
+    h2 {
+        margin-bottom: 24px;
+    }
+}
+
+.pricing__card-div {
+    width: 920px;
+    height: 482px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 202px;
+}
+
+.pricing__card-dark {
+    height: 425px;
+    width: 445px;
+    left: 0px;
+    top: 23px;
+    border-radius: 8px;
+    background: $blue;
+    margin-top: 44px;
+    margin-right: 15px;
+}
+
+.pricing__image-free {
+    width: 45.62px;
+    height: 45.45px;
+    position: absolute;
+    top: -71px;
+}
+
+.pricing__image-paid {
+    width: 51px;
+    height: 65px;
+    position: absolute;
+    top: -94px;
+    left: -1px;
+}
+
+.pricing__card-light {
+    width: 445px;
+    height: 449px;
+    border-radius: 8px;
+    background: $cyan;
+    margin-top: 32px;
+    margin-left: 15px;
+}
+
+.check {
+    color: #3ee9e5;
+}
+
+.pricing__card-textbox {
+    width: 369px;
+    margin-left: 38px;
+    margin-top: 49px;
+    h3 {
+        font-weight: 800;
+        font-size: $font-sm;
+        line-height: 25px;
+        margin-bottom: 19px;
+    }
+    p {
+        margin-bottom: 24px;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        color: $white;
+    }
+    h2 {
+        font-weight: map-get($font-weights, bold);
+        font-size: $font-lg;
+        line-height: 55px;
+        margin-bottom: 19px;
+    }
+    ul {
+        list-style-type: none;
+        padding: none;
+        img {
+            margin-right: 15.32px;
+        }
+        li {
+            color: #fff;
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.mobile-br {
+    display: none;
+}
+
+.pricing__card-textbox-dark {
+    @extend .pricing__card-textbox;
+    margin-top: 61px;
+
+    h3 {
+        color: $black;
+    }
+    p {
+        color: $black;
+    }
+    h2 {
+        color: $black;
+        position: relative;
+        span {
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.6;
+            position: absolute;
+            top: 15px;
+            padding-left: 8px;
+        }
+    }
+    ul {
+        li {
+            color: $black;
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 12px;
+        }
+    }
+}

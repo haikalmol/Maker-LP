@@ -1,0 +1,22 @@
+// Colors
+
+$cyan: hsl(179, 80%, 58%);
+$blue: hsl(206, 84%, 22%);
+$red: hsl(343, 100%, 58%);
+$grey: hsl(225, 14%, 53%);
+$black: hsl(230, 60%, 8%);
+$white: hsl(0, 0%, 100%);
+
+// Font Sizes
+$font-xsm: 15px;
+$font-sm: 18px;
+$font-med: 32px;
+$font-lg: 40px;
+$font-xlg: 48px;
+
+$font-weights: (
+    "light": 200,
+    "regular": 400,
+    "bold": 800,
+);
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");

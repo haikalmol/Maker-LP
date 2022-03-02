@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px) {
+    nav {
+        padding-top: 48px;
+        padding-bottom: 132px;
+    }
+    .card__textbox {
+        width: 457px;
+    }
+    .card__textbox {
+        width: 457px;
+        height: 254px;
+        h1 {
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 24px;
+            margin-top: 0px;
+            z-index: 22;
+        }
+        span {
+            color: $cyan;
+        }
+        br {
+            display: none;
+        }
+        p {
+            text-align: center;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+    .card__image {
+        left: 0px;
+    }
+    .container {
+        width: 573px;
+    }
+    .perks__box {
+        width: 573px;
+        height: 614px;
+        margin-bottom: 141px;
+    }
+    .flex-column-tablet {
+        flex-direction: column;
+    }
+    .perks {
+        width: 457px;
+    }
+    .perks__card {
+        width: 515px;
+        height: 124px;
+        display: flex;
+        display: -webkit-flex;
+        margin-bottom: 40px;
+        flex: 0 1 auto;
+    }
+    .perks__card:nth-child(even) {
+        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .perks__image-background {
+        width: 120px;
+        height: 124px;
+    }
+    .perks__textbox {
+        margin: 0px;
+        margin-top: 19px;
+        margin-left: 55px;
+        width: 340px;
+        height: 86px;
+        br {
+            display: none;
+        }
+        .perks__title {
+            margin-bottom: 11px;
+        }
+    }
+    .perks__card-mobile {
+        margin-left: 58px;
+    }
+
+    .pricing__card-div {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        margin-bottom: 75px;
+        height: 1172px;
+        width: 573px;
+        align-items: center;
+    }
+    .pricing {
+        margin-top: 374px;
+    }
+    .pricing__card-dark {
+        margin-bottom: 76px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    nav {
+        padding-top: 40px;
+        padding-bottom: 421px;
+    }
+    .card__textbox {
+        width: 327px;
+    }
+    .card__image {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+    }
+    .card__title {
+        br {
+            display: none;
+        }
+        .mobile-br {
+            display: block;
+        }
+    }
+    .mobile-br {
+        display: block;
+    }
+    .section__card {
+        margin-bottom: 240px;
+    }
+    .container {
+        width: 327px;
+    }
+
+    .illustration__image-left {
+        position: absolute;
+        width: 186px;
+        height: 229.6px;
+        left: -30px;
+        top: -350px;
+    }
+
+    .illustration__image-right {
+        position: absolute;
+        width: 188.45px;
+        height: 230.25px;
+        right: -30px;
+        top: -350px;
+        overflow-x: hidden;
+    }
+    .perks,
+    .perks__box,
+    .perks__card,
+    .perks__textbox,
+    .pricing__card-dark,
+    .pricing__card-light,
+    .pricing__card-div,
+    .pricing__textbox {
+        width: 327px;
+    }
+    .perks__box {
+        height: 1134px;
+    }
+    .perks__card {
+        height: 242px;
+        margin-bottom: 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: -webkit-flex;
+        flex: 0 0 auto;
+        -webkit-flex: 0;
+        flex-shrink: 0;
+    }
+    .perks__card:nth-child(even) {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 56px;
+    }
+    .perks__card-mobile {
+        margin: 0px;
+        margin-bottom: 56px;
+    }
+    .perks__textbox {
+        padding: 0;
+        margin: 0;
+        height: 86px;
+    }
+    .perks__textbox .perks__title {
+        margin-top: 32px;
+    }
+    .perks__textbox .perks__description {
+        text-align: center;
+    }
+    .perks__image-background {
+        margin-top: 56px;
+    }
+    .pricing__card-dark {
+        height: 459px;
+    }
+    .pricing__card-light {
+        height: 448px;
+    }
+
+    .pricing {
+        margin-top: 929px;
+    }
+    .pricing__card-textbox {
+        width: unset;
+    }
+    .footer-div {
+        .contact-form {
+            flex-direction: column;
+        }
+        button {
+            width: 320px;
+            height: 48px;
+            margin-left: 0px;
+            margin-top: 24px;
+        }
+    }
+    .error {
+        margin: 0px;
+        margin-top: 11px;
+    }
+    .pricing__card-dark {
+        margin: 0px;
+        margin-bottom: 65px;
+        margin-top: 79px;
+    }
+    .pricing__card-light {
+        margin: 0px;
+    }
+    .footer__image {
+        display: none;
+    }
+}
